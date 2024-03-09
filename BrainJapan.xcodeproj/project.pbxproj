@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0BBDB12B91C3B6000B024F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BBDB02B91C3B6000B024F /* QuizViewController.swift */; };
+		1F84DF072B9250B100ADEA3B /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84DF062B9250B100ADEA3B /* LearnViewController.swift */; };
+		1FA9E7132B91F53500D1CB91 /* BrainJapan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E7122B91F53500D1CB91 /* BrainJapan.swift */; };
+		1FA9E7152B91F53D00D1CB91 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E7142B91F53D00D1CB91 /* Question.swift */; };
+		1FA9E7172B922F0900D1CB91 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E7162B922F0900D1CB91 /* ResultViewController.swift */; };
 		1FC25F7F2B88CB0C006963D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F7E2B88CB0C006963D3 /* AppDelegate.swift */; };
 		1FC25F812B88CB0C006963D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F802B88CB0C006963D3 /* SceneDelegate.swift */; };
-		1FC25F832B88CB0C006963D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F822B88CB0C006963D3 /* ViewController.swift */; };
+		1FC25F832B88CB0C006963D3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F822B88CB0C006963D3 /* StartViewController.swift */; };
 		1FC25F862B88CB0C006963D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25F842B88CB0C006963D3 /* Main.storyboard */; };
 		1FC25F882B88CB0D006963D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25F872B88CB0D006963D3 /* Assets.xcassets */; };
 		1FC25F8B2B88CB0D006963D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25F892B88CB0D006963D3 /* LaunchScreen.storyboard */; };
+		1FC25FA82B8DBCB3006963D3 /* Fredoka in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25FA72B8DBCB2006963D3 /* Fredoka */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0BBDB02B91C3B6000B024F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		1F84DF062B9250B100ADEA3B /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		1FA9E7122B91F53500D1CB91 /* BrainJapan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrainJapan.swift; path = "../../../Quizzler-iOS13/Quizzler-iOS13/Model/BrainJapan.swift"; sourceTree = "<group>"; };
+		1FA9E7142B91F53D00D1CB91 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "../../../Quizzler-iOS13/Quizzler-iOS13/Model/Question.swift"; sourceTree = "<group>"; };
+		1FA9E7162B922F0900D1CB91 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		1FC25F7B2B88CB0C006963D3 /* BrainJapan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainJapan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC25F7E2B88CB0C006963D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC25F802B88CB0C006963D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FC25F822B88CB0C006963D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FC25F822B88CB0C006963D3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		1FC25F852B88CB0C006963D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FC25F872B88CB0D006963D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC25F8A2B88CB0D006963D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FC25F8C2B88CB0D006963D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC25FA72B8DBCB2006963D3 /* Fredoka */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fredoka; path = ../../../Downloads/Fredoka; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		1FC25F7D2B88CB0C006963D3 /* BrainJapan */ = {
 			isa = PBXGroup;
 			children = (
+				1FC25FA42B8D00BC006963D3 /* Model */,
+				1FC25FA52B8D00D1006963D3 /* View */,
+				1FC25FA62B8D00E3006963D3 /* Controller */,
 				1FC25F7E2B88CB0C006963D3 /* AppDelegate.swift */,
 				1FC25F802B88CB0C006963D3 /* SceneDelegate.swift */,
-				1FC25F822B88CB0C006963D3 /* ViewController.swift */,
-				1FC25F842B88CB0C006963D3 /* Main.storyboard */,
 				1FC25F872B88CB0D006963D3 /* Assets.xcassets */,
 				1FC25F892B88CB0D006963D3 /* LaunchScreen.storyboard */,
 				1FC25F8C2B88CB0D006963D3 /* Info.plist */,
+				1FC25FA72B8DBCB2006963D3 /* Fredoka */,
 			);
 			path = BrainJapan;
+			sourceTree = "<group>";
+		};
+		1FC25FA42B8D00BC006963D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9E7122B91F53500D1CB91 /* BrainJapan.swift */,
+				1FA9E7142B91F53D00D1CB91 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FC25FA52B8D00D1006963D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FC25F842B88CB0C006963D3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FC25FA62B8D00E3006963D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FC25F822B88CB0C006963D3 /* StartViewController.swift */,
+				1F0BBDB02B91C3B6000B024F /* QuizViewController.swift */,
+				1FA9E7162B922F0900D1CB91 /* ResultViewController.swift */,
+				1F84DF062B9250B100ADEA3B /* LearnViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +170,7 @@
 				1FC25F8B2B88CB0D006963D3 /* LaunchScreen.storyboard in Resources */,
 				1FC25F882B88CB0D006963D3 /* Assets.xcassets in Resources */,
 				1FC25F862B88CB0C006963D3 /* Main.storyboard in Resources */,
+				1FC25FA82B8DBCB3006963D3 /* Fredoka in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC25F832B88CB0C006963D3 /* ViewController.swift in Sources */,
+				1FA9E7132B91F53500D1CB91 /* BrainJapan.swift in Sources */,
+				1FC25F832B88CB0C006963D3 /* StartViewController.swift in Sources */,
+				1FA9E7172B922F0900D1CB91 /* ResultViewController.swift in Sources */,
 				1FC25F7F2B88CB0C006963D3 /* AppDelegate.swift in Sources */,
+				1FA9E7152B91F53D00D1CB91 /* Question.swift in Sources */,
+				1F84DF072B9250B100ADEA3B /* LearnViewController.swift in Sources */,
 				1FC25F812B88CB0C006963D3 /* SceneDelegate.swift in Sources */,
+				1F0BBDB12B91C3B6000B024F /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +346,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +354,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.fabiho.BrainJapan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +385,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.fabiho.BrainJapan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
