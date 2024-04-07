@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		1F0BBDB12B91C3B6000B024F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BBDB02B91C3B6000B024F /* QuizViewController.swift */; };
 		1F84DF072B9250B100ADEA3B /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84DF062B9250B100ADEA3B /* LearnViewController.swift */; };
-		1FA9E7132B91F53500D1CB91 /* BrainJapan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E7122B91F53500D1CB91 /* BrainJapan.swift */; };
-		1FA9E7152B91F53D00D1CB91 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E7142B91F53D00D1CB91 /* Question.swift */; };
 		1FA9E7172B922F0900D1CB91 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E7162B922F0900D1CB91 /* ResultViewController.swift */; };
+		1FB54B582B9C8E34006A83D5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB54B562B9C8E34006A83D5 /* Question.swift */; };
+		1FB54B592B9C8E34006A83D5 /* BrainJapan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB54B572B9C8E34006A83D5 /* BrainJapan.swift */; };
 		1FC25F7F2B88CB0C006963D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F7E2B88CB0C006963D3 /* AppDelegate.swift */; };
 		1FC25F812B88CB0C006963D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F802B88CB0C006963D3 /* SceneDelegate.swift */; };
 		1FC25F832B88CB0C006963D3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25F822B88CB0C006963D3 /* StartViewController.swift */; };
@@ -24,9 +24,9 @@
 /* Begin PBXFileReference section */
 		1F0BBDB02B91C3B6000B024F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		1F84DF062B9250B100ADEA3B /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
-		1FA9E7122B91F53500D1CB91 /* BrainJapan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrainJapan.swift; path = "../../../Quizzler-iOS13/Quizzler-iOS13/Model/BrainJapan.swift"; sourceTree = "<group>"; };
-		1FA9E7142B91F53D00D1CB91 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "../../../Quizzler-iOS13/Quizzler-iOS13/Model/Question.swift"; sourceTree = "<group>"; };
 		1FA9E7162B922F0900D1CB91 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		1FB54B562B9C8E34006A83D5 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1FB54B572B9C8E34006A83D5 /* BrainJapan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainJapan.swift; sourceTree = "<group>"; };
 		1FC25F7B2B88CB0C006963D3 /* BrainJapan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainJapan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC25F7E2B88CB0C006963D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC25F802B88CB0C006963D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		1FC25FA42B8D00BC006963D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1FA9E7122B91F53500D1CB91 /* BrainJapan.swift */,
-				1FA9E7142B91F53D00D1CB91 /* Question.swift */,
+				1FB54B572B9C8E34006A83D5 /* BrainJapan.swift */,
+				1FB54B562B9C8E34006A83D5 /* Question.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,11 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA9E7132B91F53500D1CB91 /* BrainJapan.swift in Sources */,
+				1FB54B592B9C8E34006A83D5 /* BrainJapan.swift in Sources */,
 				1FC25F832B88CB0C006963D3 /* StartViewController.swift in Sources */,
 				1FA9E7172B922F0900D1CB91 /* ResultViewController.swift in Sources */,
+				1FB54B582B9C8E34006A83D5 /* Question.swift in Sources */,
 				1FC25F7F2B88CB0C006963D3 /* AppDelegate.swift in Sources */,
-				1FA9E7152B91F53D00D1CB91 /* Question.swift in Sources */,
 				1F84DF072B9250B100ADEA3B /* LearnViewController.swift in Sources */,
 				1FC25F812B88CB0C006963D3 /* SceneDelegate.swift in Sources */,
 				1F0BBDB12B91C3B6000B024F /* QuizViewController.swift in Sources */,

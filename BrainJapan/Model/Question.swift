@@ -1,9 +1,9 @@
 //
 //  Question.swift
-//  Quizzler-iOS13
+//  BrainJapan
 //
-//  Created by Fabian Hofer on 02.02.24.
-//  Copyright © 2024 The App Brewery. All rights reserved.
+//  Created by Fabian Hofer on 23.02.24.
+//
 //
 
 import Foundation

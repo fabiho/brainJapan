@@ -1,9 +1,8 @@
 //
 //  QuizBrain.swift
-//  Quizzler-iOS13
+//  BrainJapan
 //
-//  Created by Fabian Hofer on 09.02.24.
-//  Copyright © 2024 The App Brewery. All rights reserved.
+//  Created by Fabian Hofer on 23.02.24.
 //
 
 import Foundation
@@ -28,7 +27,8 @@ struct BrainJapan {
         Question(c: "Verstehen",q: "Was bedeutet ありがとう (Arigatō)?", a: ["Danke", "Bitte", "Entschuldigung"], correctAnswer: "Danke"),
         Question(c: "Verhalten",q: "Was sollte man in Japan immer unbedingt bei sich haben?", a: ["Pfefferspray", "Essstäbchen", "Visitenkarten"], correctAnswer: "Visitenkarten"),
         Question(c: "Wissen",q: "Wie heißt der Kugelfisch, der in Japan eine gefährliche Delikatesse ist?", a: ["Sashimi", "Fugu", "Shiitake"], correctAnswer: "Fugu"),
-        Question(c: "Wissen",q: "Für was steht der Fuchs in Japan?", a: ["Freundschaft", "Hinterhältigkeit", "Wohlstand"], correctAnswer: "Hinterhältigkeit"),Question(c: "Wissen",q: "Was macht eine Geräuschprinzessin (Otohime) in Japan?", a: ["Tiergeräusche nachahmen", "Toilettengeräusche übertönen", "Gäste mit Musik unterhalten"], correctAnswer: "Toilettengeräusche übertönen"),
+        Question(c: "Wissen",q: "Für was steht der Fuchs in Japan?", a: ["Freundschaft", "Hinterhältigkeit", "Wohlstand"], correctAnswer: "Hinterhältigkeit"),
+        Question(c: "Wissen",q: "Was macht eine Geräuschprinzessin (Otohime) in Japan?", a: ["Tiergeräusche nachahmen", "Toilettengeräusche übertönen", "Gäste mit Musik unterhalten"], correctAnswer: "Toilettengeräusche übertönen"),
         Question(c: "Verstehen",q: "Was bedeutet まち の ちゅしん (machi no chushin)?", a: ["Hotel", "Bank", "Stadtzentrum"], correctAnswer: "Stadtzentrum")
     ]
     

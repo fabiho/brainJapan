@@ -37,7 +37,7 @@
                                                             <constraint firstAttribute="height" constant="120" id="PwG-DC-xqm"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Willkommen bei  Brain Japan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kB6-DU-gNN" userLabel="Willkommen bei  Brain Japan">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Willkommen bei  BrainJapan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kB6-DU-gNN" userLabel="Willkommen bei  Brain Japan">
                                                         <rect key="frame" x="0.0" y="193" width="393" height="77.666666666666686"/>
                                                         <fontDescription key="fontDescription" name="Fredoka-Regular" family="Fredoka" pointSize="32"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -683,8 +683,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Dfl-fo-03F"/>
-        <segue reference="GyC-1m-tTb"/>
+        <segue reference="ip6-NC-RV1"/>
+        <segue reference="iQ8-pl-zaX"/>
         <segue reference="HJf-I3-7LH"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
